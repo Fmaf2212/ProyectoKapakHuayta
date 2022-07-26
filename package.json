@@ -2,7 +2,7 @@
   "name": "kapakhuayta",
   "version": "0.1.0",
   "private": true,
-  "homepage": "Fmaf2212.github.io/ProyectoKapakHuayta",
+  "homepage": "http://Fmaf2212.github.io/ProyectoKapakHuayta",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
