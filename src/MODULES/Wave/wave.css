@@ -7,9 +7,9 @@
   overflow: hidden;
   z-index: 99;
 }
-@media screen and (max-width: 600px){
-    .wave {
-        height: 100px;    
-        bottom: 199px;
-      }
+@media screen and (max-width: 600px) {
+  .wave {
+    height: 150px;
+    bottom: 0;
+  }
 }
