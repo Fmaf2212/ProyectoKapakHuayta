@@ -6,6 +6,19 @@ import frasePersuasiva from '../../BASE/img/frasePersuasiva.png'
 import nosotrosLoremIpsum from '../../BASE/img/nosotrosLoremIpsum.png'
 
 const Nosotros = () => {
+    // var URLactual = window.location;
+    // if(URLactual.pathname === '/Nosotros'){
+    //   let enlace = document.getElementById("enlaceNosotros");
+    //   enlace.style.color = "var(--Light-Green)";
+    //   enlace.style.borderBottom = "1px solid";
+    //   enlace.style.paddingBottom = "2px";
+    // }else{
+    //   let enlace = document.getElementById("enlaceNosotros");
+    //   enlace.style.color = "var(Green)";
+    //   enlace.style.borderBottom = "0px solid";
+    //   enlace.style.paddingBottom = "0";
+    // }
+    
   return (
     <div className="contentNosotros">
       <section className="contentNosotros__top">

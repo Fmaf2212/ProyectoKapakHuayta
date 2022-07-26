@@ -35,6 +35,38 @@ const Header = () => {
   //   }
   // }
 
+  
+  window.addEventListener('resize', function(event) {
+    if (window.innerWidth < 980){
+      if (document.body.getBoundingClientRect().top < -50) {
+        // document.getElementById('box').innerText = '↑';
+        // console.log('PONLE BACKGROUND AL NAVBAR')
+        // document.getElementById('header__nav').style.backgroundColor = 'rgba(233, 233, 233, .9)'
+        document.getElementById('header__nav').style.padding = '0'
+        // document.getElementById('header__nav').style.padding = '0 60px'
+        document.getElementById('nav').style.padding = '0px 20px'
+      } else {
+        document.getElementById('header__nav').style.padding = '0'
+        document.getElementById('nav').style.padding = '0 20px'
+      }
+    }
+    else{
+      if (document.body.getBoundingClientRect().top < -50) {
+        // document.getElementById('box').innerText = '↑';
+        // console.log('PONLE BACKGROUND AL NAVBAR')
+        document.getElementById('header__nav').style.backgroundColor = 'rgba(255, 255, 255, 0.9)'
+        document.getElementById('header__nav').style.padding = '0 40px'
+        // document.getElementById('header__nav').style.padding = '0 60px'
+        document.getElementById('nav').style.padding = '0px 10px'
+      } else {
+        document.getElementById('header__nav').style.backgroundColor =
+          'transparent'
+        document.getElementById('header__nav').style.padding = '0px 40px'
+        document.getElementById('nav').style.padding = '10px 0px'
+      }
+    }
+  }, true);
+
   window.addEventListener('scroll', function () {
     if (window.innerWidth > 1440) {
       if (document.body.getBoundingClientRect().top < -50) {
@@ -57,27 +89,27 @@ const Header = () => {
         // scrollPos = (document.body.getBoundingClientRect()).top;
       }
     }
-    if (window.innerWidth <= 1439 && window.innerWidth > 768) {
+    if (window.innerWidth <= 1439 && window.innerWidth > 980) {
       if (document.body.getBoundingClientRect().top < -50) {
         // document.getElementById('box').innerText = '↑';
         // console.log('PONLE BACKGROUND AL NAVBAR')
         // document.getElementById('header__nav').style.backgroundColor = 'rgba(233, 233, 233, .9)'
         document.getElementById('header__nav').style.backgroundColor =
           'rgba(255, 255, 255, .9)'
-        // document.getElementById('header__nav').style.padding = '0 60px'
+        document.getElementById('header__nav').style.padding = '0 40px'
         document.getElementById('nav').style.padding = '0px 10px'
         document.getElementById('imgLogo').style.width = '50%'
       } else {
         // console.log('QUITAR BACKGROUND AL NAVBAR')
         document.getElementById('header__nav').style.backgroundColor =
           'transparent'
-        document.getElementById('header__nav').style.padding = '0 60px'
+        document.getElementById('header__nav').style.padding = '0 40px'
         document.getElementById('nav').style.padding = '10px 0px'
         document.getElementById('imgLogo').style.width = '50%'
         // document.getElementById('box').innerText = '↓';
         // scrollPos = (document.body.getBoundingClientRect()).top;
       }
-    }
+    } 
   })
 
   return (
@@ -94,7 +126,7 @@ const Header = () => {
             <span className="line line-split"></span>
           </label>
           <div>
-            <Link to="/">
+            <Link to="/ProyectoKapakHuayta">
               <img
                 src={logoKapak}
                 id="imgLogo"
@@ -105,19 +137,19 @@ const Header = () => {
           </div>
           <ul id='ul'>
             <li>
-              <Link to="/Nosotros">Nosotros</Link>
+              <Link id='enlaceNosotros' to="/Nosotros">Nosotros</Link>
             </li>
             <li>
-              <Link to="/Servicios">Servicios</Link>
+              <Link id='enlaceServicios' to="/Servicios">Servicios</Link>
             </li>
             <li>
-              <Link to="/Sostenibilidad">Sostenibilidad</Link>
+              <Link id='enlaceSostenibilidad' to="/Sostenibilidad">Sostenibilidad</Link>
             </li>
             <li>
-              <Link to="/Certificaciones">Certificaciones</Link>
+              <Link id='enlaceCertificaciones' to="/Certificaciones">Certificaciones</Link>
             </li>
             <li>
-              <Link to="/Contactanos" className="nav-button">
+              <Link id='enlaceContactanos' to="/Contactanos" className="nav-button">
                 Contáctanos
               </Link>
             </li>

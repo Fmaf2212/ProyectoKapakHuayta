@@ -500,13 +500,14 @@
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 376px) {
   .slider_div .owl-item.active {
-    left: -377px;
+    left: -373px;
   }
   .slick {
     transform: scale(0.8) !important;
   }
+
 }
 
 @media screen and (max-width: 320px) {

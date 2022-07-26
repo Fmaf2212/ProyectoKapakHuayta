@@ -39,6 +39,7 @@
   filter: drop-shadow(6px 7px 1px var(--Brown));
   width: 50%;
   transition: 0.3s ease width;
+  min-width: 100px;
 }
 
 .header .header__nav nav ul {
@@ -84,7 +85,7 @@
 
 @media screen and (max-width: 1440px) {
   .header .header__nav {
-    padding: 0px 60px;
+    padding: 0px 40px;
   }
   .header .header__nav nav ul li a {
     font-size: 1em;
@@ -101,7 +102,7 @@
   }
 }
 
-@media (max-width: 858px) {
+@media (max-width: 980px) {
   .header .header__nav {
     max-width: 100vw;
     padding: 0;
@@ -149,7 +150,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 980px) {
   /* .sectionNuestroTeam__body {
     column-gap: 25px;
   } */

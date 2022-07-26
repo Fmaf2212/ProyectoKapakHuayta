@@ -7,6 +7,13 @@
   overflow: hidden;
   z-index: 99;
 }
+
+@media screen and (max-width: 768px){
+  .wave {
+    height: 150px;
+    bottom: 0;
+  }
+}
 @media screen and (max-width: 600px) {
   .wave {
     height: 150px;

@@ -20,7 +20,7 @@ const App = () => {
     <Router>
       <Header />
       <Routes style={{ marginTop: '80px' }}>
-        <Route path="/" exact element={<Home />} />
+        <Route path="/ProyectoKapakHuayta" exact element={<Home />} />
         <Route path="/Nosotros" element={<Nosotros />} />
         <Route path="/Servicios" element={<Servicios />} />
         <Route path="/Sostenibilidad" element={<Sostenibilidad />} />

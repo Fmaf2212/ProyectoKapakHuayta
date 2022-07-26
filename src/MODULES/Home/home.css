@@ -462,43 +462,20 @@
   .home .home-header__textos {
     min-height: 70vh;
   }
-}
-
-@media screen and (max-width: 600px) {
-    /* Header Textos*/
-  .home .home-header__textos .header__textos {
-    row-gap: 25px;
-    padding-top: 100px;
-    margin-top: 0px;
+  .home .home-header__textos .header__textos p{
+    width: 50%;
   }
-  .home .home-header__textos .header__textos h1 {
-    font-size: 2em;
-    color: var(--Light-Brown);
+  .home .home-header__textos .header__textos p, .home .home-header__textos .header__textos .header__textos__botones .btnQuieroEmprender{
+    font-size: 1.2em;
   }
-  .home .home-header__textos .header__textos p {
-    width: 80%;
-    font-size: 0.8em;
-    color: var(--Light-Brown);
-  }
-  .home .home-header__textos .header__textos .header__textos__botones {
-    column-gap: 30px;
-  }
-  .home .home-header__textos .header__textos .header__textos__botones .btnQuieroEmprender {
-    padding: 15px 20px;
-    font-size: 0.8em;
-    color: var(--Lightest);
-  }
-  .home .home-header__textos .header__textos .header__textos__botones .btnSaberMas {
-    font-size: 0.8em;
-    color: var(--Light-Brown);
-  }
-
+  
   /* ¿Por qué Kapak? */
   .home .sectionPorQueKapak {
-    min-height: 100vh;
-    row-gap: 40px;
-    margin-bottom: 25px;
-    margin-top: 25px;
+    min-height: 100%;
+    row-gap: 100px;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 50px;
   }
   .home .sectionPorQueKapak .sectionPorQueKapak__top {
     row-gap: 15px;
@@ -512,18 +489,13 @@
     font-size: 0.8em;
   }
   .home .sectionPorQueKapak .sectionPorQueKapak__body {
-    flex-direction: row;
     padding: 0;
-    row-gap: 30px;
-    flex-wrap: wrap;
+    column-gap: 40px;
   }
   .home .sectionPorQueKapak .sectionPorQueKapak__body article {
     row-gap: 10px;
     width: min-content;
     flex-basis: 140px;
-  }
-  .home .sectionPorQueKapak .sectionPorQueKapak__body article:nth-child(even) {
-    padding-top: 0;
   }
   .home .sectionPorQueKapak .sectionPorQueKapak__body article img {
     width: 100px;
@@ -532,12 +504,13 @@
     font-size: 0.8em;
   }
 
+  
   /* ¿Cómo es nuestro proceso? */
   .home .sectionProcesoKapak {
     min-height: 100%;
-    flex-direction: column-reverse;
-    row-gap: 30px;
     padding: 50px 0;
+    column-gap: 0px;
+    justify-content: space-evenly;
   }
   .home .sectionProcesoKapak img {
     width: 300px;
@@ -582,6 +555,85 @@
   }
 
   /* Nuestros Servicios */
+  .home .sectionNuestrosServicios{
+    padding: 100px 0 20px 0;
+    min-height: 100%;
+  }
+
+    /* Nuestros Servicios */
+    .home .sectionNuestrosServicios {
+      padding: 50px 0;
+      display: flex;
+      flex-direction: column;
+      row-gap: 10px;
+    }
+    .home .sectionNuestrosServicios .sectionNuestrosServicios__top {
+      row-gap: 30px;
+      margin-top: 60px;
+    }
+    .home .sectionNuestrosServicios .sectionNuestrosServicios__top .titulo {
+      font-size: 1.4em;
+    }
+    .home .sectionNuestrosServicios .sectionNuestrosServicios__top p {
+      font-size: 0.8em;
+      width: 80%;
+    }
+    .home .sectionNuestrosServicios .sectionNuestrosServicios__slick {
+      padding: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    /* Header Textos*/
+  .home .home-header__textos .header__textos {
+    row-gap: 25px;
+    padding-top: 100px;
+    margin-top: 0px;
+  }
+  .home .home-header__textos .header__textos h1 {
+    font-size: 2em;
+    color: var(--Light-Brown);
+  }
+  .home .home-header__textos .header__textos p {
+    width: 80%;
+    font-size: 0.8em;
+    color: var(--Light-Brown);
+  }
+  .home .home-header__textos .header__textos .header__textos__botones {
+    column-gap: 30px;
+  }
+  .home .home-header__textos .header__textos .header__textos__botones .btnQuieroEmprender {
+    padding: 15px 20px;
+    font-size: 0.8em;
+    color: var(--Lightest);
+  }
+  .home .home-header__textos .header__textos .header__textos__botones .btnSaberMas {
+    font-size: 0.8em;
+    color: var(--Light-Brown);
+  }
+
+  /* ¿Por qué Kapak? */
+  .home .sectionPorQueKapak .sectionPorQueKapak__body {
+    flex-direction: row;
+    row-gap: 30px;
+    flex-wrap: wrap;
+  }
+  .home .sectionPorQueKapak .sectionPorQueKapak__body article:nth-child(even) {
+    padding-top: 0;
+  }
+
+  /* ¿Cómo es nuestro proceso? */
+  .home .sectionProcesoKapak {
+    min-height: 100%;
+    flex-direction: column-reverse;
+    row-gap: 30px;
+    padding: 50px 0;
+  }
+  .home .sectionProcesoKapak .sectionProcesoKapak__texto{
+    margin-top: 0;
+  }
+
+  /* Nuestros Servicios */
   .home .sectionNuestrosServicios {
     padding: 50px 0;
     display: flex;
@@ -590,7 +642,8 @@
   }
   .home .sectionNuestrosServicios .sectionNuestrosServicios__top {
     row-gap: 30px;
-    margin-top: 60px;
+    margin-top: 0;
+    margin-bottom: 30px;
   }
   .home .sectionNuestrosServicios .sectionNuestrosServicios__top .titulo {
     font-size: 1.4em;
@@ -620,6 +673,11 @@
   }
 }
 
+@media screen and (max-width: 376px) {
+  .home .sectionNuestrosServicios .sectionNuestrosServicios__top{
+    margin-bottom: 0;
+  }
+}
 @media screen and (max-width: 320px) {
   .header .header__textos h1 {
     font-size: 1.6em;
