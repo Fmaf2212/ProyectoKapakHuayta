@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Fmaf2212.github.io/ProyectoKapakHuayta/static/css/main.f0e321b6.css",
+    "main.js": "/Fmaf2212.github.io/ProyectoKapakHuayta/static/js/main.fe97db63.js",
+    "static/media/imagenHeaderFondo.jpg": "/Fmaf2212.github.io/ProyectoKapakHuayta/static/media/imagenHeaderFondo.aa19cc0c5732ade31f01.jpg",
+    "static/media/fondoPrevioFooter.png": "/Fmaf2212.github.io/ProyectoKapakHuayta/static/media/fondoPrevioFooter.dc4eb58b6b04148d829e.png",
+    "static/media/imgComoEsNuestroProceso.jpg": "/Fmaf2212.github.io/ProyectoKapakHuayta/static/media/imgComoEsNuestroProceso.50903197cc930cf3343a.jpg",
+    "static/media/frasePersuasiva.png": "/Fmaf2212.github.io/ProyectoKapakHuayta/static/media/frasePersuasiva.737973ede6e1d3d16d5d.png",
+    "static/media/logoKapak.png": "/Fmaf2212.github.io/ProyectoKapakHuayta/static/media/logoKapak.312ae6bac18335062222.png",
+    "static/media/nosotrosLoremIpsum.png": "/Fmaf2212.github.io/ProyectoKapakHuayta/static/media/nosotrosLoremIpsum.1b0d6cc849dae42aec2d.png",
+    "static/media/ramaPorQueKapak.png": "/Fmaf2212.github.io/ProyectoKapakHuayta/static/media/ramaPorQueKapak.0d0aa1885823a28e937f.png",
+    "static/media/nuestrosProcesosArbol1.png": "/Fmaf2212.github.io/ProyectoKapakHuayta/static/media/nuestrosProcesosArbol1.27706aaffbd31c48ca51.png",
+    "static/media/nuestrosProcesosArbol3.png": "/Fmaf2212.github.io/ProyectoKapakHuayta/static/media/nuestrosProcesosArbol3.cfd5723d632da0a93eb0.png",
+    "index.html": "/Fmaf2212.github.io/ProyectoKapakHuayta/index.html",
+    "main.f0e321b6.css.map": "/Fmaf2212.github.io/ProyectoKapakHuayta/static/css/main.f0e321b6.css.map",
+    "main.fe97db63.js.map": "/Fmaf2212.github.io/ProyectoKapakHuayta/static/js/main.fe97db63.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f0e321b6.css",
+    "static/js/main.fe97db63.js"
+  ]
+}
