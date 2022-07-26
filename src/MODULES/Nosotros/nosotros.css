@@ -1,0 +1,95 @@
+/* -------------contentNosotros__top------------------ */
+.contentNosotros .contentNosotros__top{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Dark-Medium);
+}
+.contentNosotros .contentNosotros__top .top__sectionTexto{
+    width: 100%;
+    margin: 0 10%;
+    text-align: end;
+    display: flex;
+    justify-content: flex-end;
+}
+.contentNosotros .contentNosotros__top .top__sectionTexto>h1{
+    font-size: 6rem;
+    width: 60%;
+    font-weight: 500;
+}
+.contentNosotros .contentNosotros__top .wave{
+    transform: scaleX(-1);
+    height: 200px;
+}
+
+/* -------------contentNosotros__desc---------------- */
+.contentNosotros .contentNosotros__desc{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    margin-top: -100px;
+    margin-bottom: 100px;
+    z-index: 1000;
+    position: relative;
+}
+.contentNosotros .contentNosotros__desc h2{
+    font-size: 3rem;
+    font-weight: 500;
+    width: 37%;
+}
+.contentNosotros .contentNosotros__desc hr{
+    border: 1.5px solid black;
+    width: 11%;
+    margin-top: 50px;
+}
+.contentNosotros .contentNosotros__desc p{
+    font-size: 1.6rem;
+    width: 50%;
+}
+
+/* -------------contentNosotros__frasePersuasiva---------------- */
+.contentNosotros .contentNosotros__frasePersuasiva img{
+    width: 100%;
+    border: 1px solid;
+}
+
+/* -------------contentNosotros__loremIpsum---------------- */
+.contentNosotros .contentNosotros__loremIpsum{
+    padding: 90px 0;
+}
+.contentNosotros .contentNosotros__loremIpsum img{
+    width: 100%;
+}
+.contentNosotros .contentNosotros__loremIpsum .loremIpsum__texto{
+    display: flex;
+    padding: 80px;
+}
+.contentNosotros .contentNosotros__loremIpsum .loremIpsum__texto .texto__desc{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    width: 70%;
+    padding-top: 60px;
+}
+.contentNosotros .contentNosotros__loremIpsum .loremIpsum__texto .texto__desc p{
+    font-size: 1.6rem;
+    width: 80%;
+    line-height: 1.6;
+}
+.contentNosotros .contentNosotros__loremIpsum .loremIpsum__texto .texto__desc hr{
+    border: 1.5px solid black;
+    width: 15%;
+}
+.contentNosotros .contentNosotros__loremIpsum .loremIpsum__texto .texto__title h2{
+    font-size: 3rem;
+    font-weight: 500;
+}
+.contentNosotros .contentNosotros__loremIpsum .loremIpsum__texto.secondTexto{
+    flex-direction: row-reverse;
+}
+.contentNosotros .contentNosotros__loremIpsum .loremIpsum__texto.secondTexto .texto__desc{
+    align-items: end;
+}
+

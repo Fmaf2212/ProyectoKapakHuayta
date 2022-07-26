@@ -1,0 +1,67 @@
+/* ------------------------------- Footer ---------------------------------------- */
+.footer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  align-items: center;
+  padding: 65px 0;
+}
+.footer .footer__email a {
+  font-size: 1.4em;
+  font-weight: 500;
+  color: var(--Orange);
+  text-decoration: underline;
+}
+.footer .footer__socialNetworks a {
+  text-decoration: none;
+  transition: 0.3s ease-out filter;
+}
+.footer .footer__socialNetworks a:hover {
+  filter: invert(0) sepia(1) hue-rotate(1deg);
+}
+.footer .footer_copyright span {
+  font-size: 1.3em;
+  font-weight: 500;
+}
+
+
+@media screen and (max-width: 1440px) {
+  /* Footer */
+  .footer .footer__nameKapak .titulo {
+    font-size: 2em;
+  }
+  .footer .footer__email a {
+    font-size: 1.2em;
+  }
+  .footer .footer__socialNetworks a img {
+    width: 40px;
+  }
+  .footer .footer_copyright span {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  /* Footer */
+  .titulo {
+    font-size: 1.2em;
+  }
+  .footer {
+    row-gap: 15px;
+    padding: 25px 0;
+  }
+  .footer .footer__nameKapak .titulo{
+    font-size: 1.2em;
+  }
+  .footer .footer__email a {
+    font-size: 0.9em;
+  }
+  .footer .footer__socialNetworks a img {
+    width: 30px;
+  }
+  .footer .footer_copyright span {
+    font-size: 0.7em;
+    width: 80%;
+    text-align: center;
+  }
+}

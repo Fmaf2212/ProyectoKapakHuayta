@@ -1,0 +1,15 @@
+/* overflow:hidden -> hace que el navegador oculte todos los contenidos que se salen de la caja del elemento */
+.wave {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  z-index: 99;
+}
+@media screen and (max-width: 600px){
+    .wave {
+        height: 100px;    
+        bottom: 199px;
+      }
+}

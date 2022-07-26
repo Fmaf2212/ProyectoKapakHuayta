@@ -1,0 +1,414 @@
+
+/* laptop */
+@media screen and (max-width: 1440px) {
+  .home .header__textos h1 {
+    font-size: 4em;
+  }
+  .home .header__textos {
+    padding-top: 200px;
+  }
+  .home .header__textos p,
+  .home .header__textos .header__textos__botones .btnQuieroEmprender {
+    font-size: 1em;
+  }
+
+  .main .sectionPorQueKapak .sectionPorQueKapak__top {
+    row-gap: 25px;
+  }
+  .main .sectionPorQueKapak .sectionPorQueKapak__top .titulo {
+    font-size: 2.6em;
+    margin-top: 0;
+  }
+  .main .sectionPorQueKapak .sectionPorQueKapak__body article img {
+    width: 100px;
+  }
+  .main .sectionPorQueKapak .sectionPorQueKapak__top p,
+  .main .sectionPorQueKapak .sectionPorQueKapak__body article p {
+    font-size: 1em;
+  }
+
+  .main .sectionProcesoKapak {
+    padding: 80px 0;
+  }
+  .main .sectionProcesoKapak .sectionProcesoKapak__texto {
+    row-gap: 30px;
+  }
+  .main .sectionProcesoKapak .sectionProcesoKapak__texto .titulo {
+    font-size: 2.6em;
+  }
+  .main
+    .sectionProcesoKapak
+    .sectionProcesoKapak__texto
+    .sectionProcesoKapak__texto__contenido {
+    row-gap: 20px;
+  }
+  .main
+    .sectionProcesoKapak
+    .sectionProcesoKapak__texto
+    .sectionProcesoKapak__texto__contenido
+    article
+    img {
+    max-width: 100px;
+  }
+  .main
+    .sectionProcesoKapak
+    .sectionProcesoKapak__texto
+    .sectionProcesoKapak__texto__contenido
+    article
+    div
+    h5,
+  .main
+    .sectionProcesoKapak
+    .sectionProcesoKapak__texto
+    .sectionProcesoKapak__texto__contenido
+    article
+    div
+    p {
+    font-size: 1em;
+  }
+
+  .main .sectionNuestrosServicios {
+    padding: 80px 0 20px 0;
+  }
+  .main .sectionNuestrosServicios .sectionNuestrosServicios__top {
+    row-gap: 20px;
+    margin-bottom: -30px;
+  }
+  .main .sectionNuestrosServicios .sectionNuestrosServicios__top .titulo {
+    font-size: 2.6em;
+  }
+  .main .sectionNuestrosServicios .sectionNuestrosServicios__top p {
+    font-size: 1em;
+  }
+
+  /* .sectionNuestroTeam {
+      justify-content: space-around;
+    }
+    .sectionNuestroTeam .titulo {
+      font-size: 2.6em;
+      margin-top: 40px;
+    }
+    .sectionNuestroTeam__body {
+      column-gap: 50px;
+    }
+    .sectionNuestroTeam .sectionNuestroTeam__body .profile {
+      flex-basis: 430px;
+      max-width: 400px;
+    }
+    .sectionNuestroTeam .sectionNuestroTeam__body .profile figure {
+      width: 50%;
+    }
+    .sectionNuestroTeam .sectionNuestroTeam__btnSaberMas button {
+      font-size: 1.1em;
+      padding: 15px 50px;
+    } */
+
+  /* Footer */
+  .footer .footer__nameKapak .titulo {
+    font-size: 2em;
+  }
+  .footer .footer__email a {
+    font-size: 1.2em;
+  }
+  .footer .footer__socialNetworks a img {
+    width: 40px;
+  }
+  .footer .footer_copyright span {
+    font-size: 1em;
+  }
+}
+
+/* @media screen and (max-width: 1024px) {
+  .sectionNuestroTeam__body {
+    column-gap: 35px;
+  }
+} */
+
+@media screen and (max-width: 768px) {
+  /* .sectionNuestroTeam__body {
+    column-gap: 25px;
+  } */
+
+  /* hamburguer */
+  #check {
+    display: none;
+  }
+  .hamburger {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 26px;
+    cursor: pointer;
+  }
+  .line {
+    position: absolute;
+    width: 28px;
+  }
+  .line-main::before,
+  .line-main::after,
+  .line-split::before,
+  .line-split::after {
+    content: '';
+    position: absolute;
+    width: inherit;
+    height: 2px;
+    background-color: #fff;
+    transition: transform 0.5s;
+  }
+  .line-main::before {
+    transform: translateY(-7px);
+  }
+  .line-main::after {
+    transform: translateY(7px);
+  }
+  .line-split::before,
+  .line-split::after {
+    width: 18px;
+    transition: transform 0.5s, opacity 0.5s;
+  }
+  .line-split::after {
+    transform: translateX(10px);
+  }
+  #check:checked ~ .hamburger > .line-main::before {
+    transform: rotate(45deg);
+  }
+  #check:checked ~ .hamburger > .line-main::after {
+    transform: rotate(-45deg);
+  }
+  #check:checked ~ .hamburger > .line-split::before {
+    transform: translateX(-18px);
+    opacity: 0;
+  }
+  #check:checked ~ .hamburger > .line-split::after {
+    transform: translateX(20px);
+    opacity: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .sectionNuestroTeam .sectionNuestroTeam__body {
+    gap: 20px;
+  }
+  .sectionNuestroTeam .sectionNuestroTeam__body .profile {
+    flex-basis: 150px;
+    max-width: 180px;
+  }
+  .sectionNuestroTeam .sectionNuestroTeam__body .profile figure {
+    width: 80%;
+  }
+
+  /* Header */
+  .header {
+    min-height: 70vh;
+    background-position: unset;
+  }
+  .header .header__textos {
+    row-gap: 25px;
+    padding-top: 100px;
+    margin-top: 0px;
+  }
+  .header .header__textos h1 {
+    font-size: 2em;
+    color: var(--Light-Brown);
+  }
+  .header .header__textos p {
+    width: 80%;
+    font-size: 0.8em;
+    color: var(--Light-Brown);
+  }
+  .header .header__textos .header__textos__botones {
+    column-gap: 30px;
+  }
+  .header .header__textos .header__textos__botones .btnQuieroEmprender {
+    padding: 15px 20px;
+    font-size: 0.8em;
+    color: var(--Dark-Light);
+  }
+  .header .header__textos .header__textos__botones .btnSaberMas {
+    font-size: 0.8em;
+    color: var(--Light-Brown);
+  }
+  .wave {
+    height: 100px;
+  }
+
+  /* ¿Por qué Kapak? */
+  .main .sectionPorQueKapak {
+    min-height: 100vh;
+    row-gap: 40px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+  }
+  .main .sectionPorQueKapak .sectionPorQueKapak__top {
+    row-gap: 15px;
+    width: 80%;
+  }
+  .main .sectionPorQueKapak .sectionPorQueKapak__top .titulo {
+    font-size: 1.2em;
+    margin-top: 0;
+  }
+  .main .sectionPorQueKapak .sectionPorQueKapak__top p {
+    font-size: 0.8em;
+  }
+  .main .sectionPorQueKapak .sectionPorQueKapak__body {
+    flex-direction: row;
+    padding: 0;
+    row-gap: 30px;
+    flex-wrap: wrap;
+  }
+  .main .sectionPorQueKapak .sectionPorQueKapak__body article {
+    row-gap: 10px;
+    width: min-content;
+    flex-basis: 140px;
+  }
+  .main .sectionPorQueKapak .sectionPorQueKapak__body article:nth-child(even) {
+    padding-top: 0;
+  }
+  .main .sectionPorQueKapak .sectionPorQueKapak__body article img {
+    width: 100px;
+  }
+  .main .sectionPorQueKapak .sectionPorQueKapak__body article p {
+    font-size: 0.8em;
+  }
+
+  /* ¿Cómo es nuestro proceso? */
+  .main .sectionProcesoKapak {
+    min-height: 100%;
+    flex-direction: column-reverse;
+    row-gap: 30px;
+    padding: 50px 0;
+  }
+  .main .sectionProcesoKapak img {
+    width: 300px;
+  }
+  .main .sectionProcesoKapak .sectionProcesoKapak__texto {
+    row-gap: 15px;
+    margin-top: 30px;
+  }
+  .main .sectionProcesoKapak .sectionProcesoKapak__texto h2 {
+    margin-top: 0;
+    font-size: 1.4em;
+  }
+  .main
+    .sectionProcesoKapak
+    .sectionProcesoKapak__texto
+    .sectionProcesoKapak__texto__contenido {
+    row-gap: 10px;
+  }
+  .main
+    .sectionProcesoKapak
+    .sectionProcesoKapak__texto
+    .sectionProcesoKapak__texto__contenido
+    article
+    img {
+    max-width: 100px;
+  }
+  .main
+    .sectionProcesoKapak
+    .sectionProcesoKapak__texto
+    .sectionProcesoKapak__texto__contenido
+    article
+    div
+    h5,
+  .main
+    .sectionProcesoKapak
+    .sectionProcesoKapak__texto
+    .sectionProcesoKapak__texto__contenido
+    article
+    div
+    p {
+    font-size: 0.8em;
+  }
+
+  /* Nuestros Servicios */
+  .main .sectionNuestrosServicios {
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+  .main .sectionNuestrosServicios .sectionNuestrosServicios__top {
+    row-gap: 30px;
+    margin-top: 60px;
+  }
+  .main .sectionNuestrosServicios .sectionNuestrosServicios__top .titulo {
+    font-size: 1.4em;
+  }
+  .main .sectionNuestrosServicios .sectionNuestrosServicios__top p {
+    font-size: 0.8em;
+    width: 80%;
+  }
+  .main .sectionNuestrosServicios .sectionNuestrosServicios__slick {
+    padding: 0;
+  }
+  
+
+  /* Nuestro Team */
+  /* .sectionNuestroTeam{
+          min-height: 100%;
+          padding: 50px 0;
+          row-gap: 30px;
+      }
+      .sectionNuestroTeam .titulo{
+          margin-top: 20px;
+          font-size: 1.4em;
+      }
+      .sectionNuestroTeam .sectionNuestroTeam__body .profile:nth-child(even) {
+          pad:\Microsoft VS Code\resources\app\out\vs\code\electron-browser\workbench\workbench.htmldding-top: 0;
+      }
+      .sectionNuestroTeam .sectionNuestroTeam__body .profile figure img{
+          width: 80%;
+      }
+      .sectionNuestroTeam .sectionNuestroTeam__body .profile figure figcaption{
+          margin-top: 6px;
+          font-size: 12px;
+      }
+      .sectionNuestroTeam .sectionNuestroTeam__body .profile figure::after{
+          right: -95%;
+          font-size: 11px;
+      }
+      .sectionNuestroTeam .sectionNuestroTeam__btnSaberMas button{
+          font-size: 1em;
+          padding: 10px 40px;
+      } */
+
+  /* Fondo Previo Footer */
+  .sectionfondoPrevioFooter img {
+    padding: 25px 0;
+  }
+
+  /* Footer */
+  .titulo {
+    font-size: 1.2em;
+  }
+  .footer {
+    row-gap: 15px;
+    padding: 25px 0;
+  }
+  .footer .footer__email a {
+    font-size: 0.9em;
+  }
+  .footer .footer__socialNetworks a img {
+    width: 30px;
+  }
+  .footer .footer_copyright span {
+    font-size: 0.7em;
+    width: 80%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header .header__textos h1 {
+    font-size: 1.6em;
+  }
+  .header .header__textos {
+    row-gap: 15px;
+    padding-top: 80px;
+  }
+  .header .header__textos .header__textos__botones {
+    margin-top: 10px;
+  }
+
+}

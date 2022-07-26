@@ -1,0 +1,634 @@
+/* ------------------ header__textos ------------------ */
+
+.home .home-header__textos {
+  min-height: 100vh;
+  background-image: url(../../BASE/img/imagenHeaderFondo.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.home .home-header__textos .header__textos {
+  /* --------------- */
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  line-height: 0.8;
+  row-gap: 50px;
+  position: relative;
+  z-index: 999;
+  height: 100vh;
+}
+.home .home-header__textos .header__textos h1 {
+  font-size: 6em;
+  color: var(--HeaderTextos);
+  margin: 50px 0 0 0;
+}
+.home .home-header__textos .header__textos p {
+  font-weight: 500;
+  color: var(--HeaderTextos);
+  width: 30%;
+  text-align: justify;
+  line-height: 1.2;
+  font-size: 1.2em;
+}
+.home .home-header__textos .header__textos .header__textos__botones {
+  display: flex;
+  column-gap: 60px;
+  margin-top: 20px;
+  align-items: center;
+}
+.home
+  .home-header__textos
+  .header__textos
+  .header__textos__botones
+  .btnQuieroEmprender {
+  color: var(--Lightest);
+  background-color: var(--Orange);
+  padding: 20px 30px;
+  border-radius: 45px;
+  border: 0;
+  font-size: 1.2em;
+  font-weight: 500;
+  line-height: 0.8;
+  cursor: pointer;
+  transition: 0.3s ease background-color;
+}
+.home
+  .home-header__textos
+  .header__textos
+  .header__textos__botones
+  .btnQuieroEmprender:hover {
+  background-color: var(--Light-Orange);
+}
+.home
+  .home-header__textos
+  .header__textos
+  .header__textos__botones
+  .btnSaberMas {
+  color: var(--HeaderTextos);
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+/* ------------------ sectionPorQueKapak ------------------ */
+.home .sectionPorQueKapak {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home .sectionPorQueKapak .sectionPorQueKapak__top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  margin: auto;
+  row-gap: 70px;
+}
+
+.home .sectionPorQueKapak .sectionPorQueKapak__top p {
+  font-size: var(--textfontSize);
+  font-weight: var(--textFontWeight);
+  color: var(--Dark);
+  text-align: center;
+}
+
+/* sectionPorQueKapak__body */
+.home .sectionPorQueKapak .sectionPorQueKapak__body {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 200px;
+  margin: auto;
+  margin-top: -50px;
+}
+
+.home .sectionPorQueKapak .sectionPorQueKapak__body article {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  align-items: center;
+}
+
+.home .sectionPorQueKapak .sectionPorQueKapak__body article:nth-child(even) {
+  padding-top: 133px;
+}
+
+.home .sectionPorQueKapak .sectionPorQueKapak__body article img {
+  width: 183px;
+}
+
+.home .sectionPorQueKapak .sectionPorQueKapak__body article h3 {
+  text-align: center;
+}
+
+.home .sectionPorQueKapak .sectionPorQueKapak__body article p {
+  text-align: center;
+  font-size: var(--textfontSize);
+  font-weight: var(--textFontWeight);
+  color: var(--Dark);
+}
+
+/* ------------------ sectionProcesoKapak ------------------ */
+.home .sectionProcesoKapak {
+  display: flex;
+  column-gap: 80px;
+  align-items: center;
+  padding: 100px 0;
+  min-height: 100vh;
+}
+
+.home .sectionProcesoKapak img {
+  width: 600px;
+  border-radius: 10%;
+  position: relative;
+  z-index: 999;
+  flex: 1;
+}
+
+.home .sectionProcesoKapak .sectionProcesoKapak__texto {
+  display: flex;
+  flex-direction: column;
+  row-gap: 60px;
+}
+
+.home
+  .sectionProcesoKapak
+  .sectionProcesoKapak__texto
+  .sectionProcesoKapak__texto__contenido {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+
+.home
+  .sectionProcesoKapak
+  .sectionProcesoKapak__texto
+  .sectionProcesoKapak__texto__contenido
+  article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 25px;
+}
+
+.home
+  .sectionProcesoKapak
+  .sectionProcesoKapak__texto
+  .sectionProcesoKapak__texto__contenido
+  article
+  img {
+  max-width: 120px;
+}
+
+.home
+  .sectionProcesoKapak
+  .sectionProcesoKapak__texto
+  .sectionProcesoKapak__texto__contenido
+  article
+  div {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.home
+  .sectionProcesoKapak
+  .sectionProcesoKapak__texto
+  .sectionProcesoKapak__texto__contenido
+  article
+  div
+  h5,
+.home
+  .sectionProcesoKapak
+  .sectionProcesoKapak__texto
+  .sectionProcesoKapak__texto__contenido
+  article
+  div
+  p {
+  font-size: var(--textfontSize);
+  font-weight: var(--textFontWeight);
+}
+
+.home
+  .sectionProcesoKapak
+  .sectionProcesoKapak__texto
+  .sectionProcesoKapak__texto__contenido
+  article
+  div
+  p {
+  line-height: 1.5;
+  color: var(--Dark);
+}
+
+/* ------------------ sectionNuestrosServicios ------------------ */
+.home .sectionNuestrosServicios {
+  padding: 100px 0 20px 0;
+  min-height: 100vh;
+}
+.home .sectionNuestrosServicios .sectionNuestrosServicios__top {
+  display: flex;
+  flex-direction: column;
+  row-gap: 60px;
+}
+.home .sectionNuestrosServicios .sectionNuestrosServicios__top p {
+  margin: auto;
+  text-align: center;
+  width: 50%;
+  font-size: var(--textfontSize);
+  font-weight: var(--textFontWeight);
+}
+
+/* ------------------ sectionNuestroTeam ------------------ */
+.sectionNuestroTeam {
+  min-height: 100vh;
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.sectionNuestroTeam .sectionNuestroTeam__body {
+  display: flex;
+  gap: 10px;
+  padding: 0;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.sectionNuestroTeam .sectionNuestroTeam__body .profile {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  flex-basis: 430px;
+  flex-grow: 1;
+  max-width: 430px;
+}
+.sectionNuestroTeam .sectionNuestroTeam__body .profile figure {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.sectionNuestroTeam .sectionNuestroTeam__body .profile figure img {
+  width: 66%;
+  border-radius: 10px;
+}
+.sectionNuestroTeam .sectionNuestroTeam__body .profile figure figcaption {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 12px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.sectionNuestroTeam .sectionNuestroTeam__body .profile figure::after {
+  content: attr(data-value);
+  width: 100%;
+  transform-origin: 0 0;
+  transform: rotate(90deg);
+  position: absolute;
+  text-transform: uppercase;
+  font-size: 14px;
+  right: -75%;
+}
+
+.sectionNuestroTeam .sectionNuestroTeam__btnSaberMas {
+  display: flex;
+  justify-content: center;
+}
+.sectionNuestroTeam .sectionNuestroTeam__btnSaberMas button {
+  color: var(--Orange);
+  border: 2px solid var(--Orange);
+  background-color: var(--Lightest);
+  padding: 20px 70px;
+  border-radius: 40px;
+  font-size: 1.4em;
+  font-weight: 500;
+  cursor: pointer;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+  transition-property: background-color, color, border;
+}
+.sectionNuestroTeam .sectionNuestroTeam__btnSaberMas button:hover {
+  color: var(--Lightest);
+  border: 2px solid var(--Light-Orange);
+  background-color: var(--Light-Orange);
+}
+
+.sectionfondoPrevioFooter img {
+  width: 100%;
+  padding: 50px 0;
+  filter: brightness(1.1);
+}
+
+/*-------------------------------MEDIA QUERIES---------------------------------------*/
+@media screen and (min-width: 1441px) {
+}
+@media screen and (max-width: 1440px) {
+  .home .home-header__textos .header__textos h1 {
+    font-size: 4em;
+  }
+  .home .home-header__textos .header__textos p,
+  .home
+    .home-header__textos
+    .header__textos
+    .header__textos__botones
+    .btnQuieroEmprender {
+    font-size: 1em;
+  }
+
+  .home .sectionPorQueKapak .sectionPorQueKapak__top {
+    row-gap: 25px;
+  }
+  .home .sectionPorQueKapak .sectionPorQueKapak__top .titulo {
+    font-size: 2.6em;
+    margin-top: 0;
+  }
+  .home .sectionPorQueKapak .sectionPorQueKapak__body article img {
+    width: 100px;
+  }
+  .home .sectionPorQueKapak .sectionPorQueKapak__top p,
+  .home .sectionPorQueKapak .sectionPorQueKapak__body article p {
+    font-size: 1em;
+  }
+
+  .home .sectionProcesoKapak {
+    padding: 80px 0;
+  }
+  .home .sectionProcesoKapak .sectionProcesoKapak__texto {
+    row-gap: 30px;
+  }
+  .home .sectionProcesoKapak .sectionProcesoKapak__texto .titulo {
+    font-size: 2.6em;
+  }
+  .home
+    .sectionProcesoKapak
+    .sectionProcesoKapak__texto
+    .sectionProcesoKapak__texto__contenido {
+    row-gap: 20px;
+  }
+  .home
+    .sectionProcesoKapak
+    .sectionProcesoKapak__texto
+    .sectionProcesoKapak__texto__contenido
+    article
+    img {
+    max-width: 100px;
+  }
+  .home
+    .sectionProcesoKapak
+    .sectionProcesoKapak__texto
+    .sectionProcesoKapak__texto__contenido
+    article
+    div
+    h5,
+  .home
+    .sectionProcesoKapak
+    .sectionProcesoKapak__texto
+    .sectionProcesoKapak__texto__contenido
+    article
+    div
+    p {
+    font-size: 1em;
+  }
+
+  .home .sectionNuestrosServicios {
+    padding: 80px 0 20px 0;
+  }
+  .home .sectionNuestrosServicios .sectionNuestrosServicios__top {
+    row-gap: 20px;
+    margin-bottom: -30px;
+  }
+  .home .sectionNuestrosServicios .sectionNuestrosServicios__top .titulo {
+    font-size: 2.6em;
+  }
+  .home .sectionNuestrosServicios .sectionNuestrosServicios__top p {
+    font-size: 1em;
+  }
+  .feature_big_add_area {
+    padding-top: 0;
+  }
+  .slider_div .owl-item.active {
+    margin-left: 360px;
+    left: -333px;
+    margin-right: 47px !important;
+  }
+  .slick {
+    width: 350px;
+    height: 400px;
+    row-gap: 20px;
+  }
+  .slick span {
+    font-size: 1.7em;
+  }
+  .slick p {
+    font-size: 1em;
+  }
+  .prevv {
+    left: 31.5% !important;
+  }
+  .nextt {
+    right: 31% !important;
+  }
+  /* .sectionNuestroTeam {
+      justify-content: space-around;
+    }
+    .sectionNuestroTeam .titulo {
+      font-size: 2.6em;
+      margin-top: 40px;
+    }
+    .sectionNuestroTeam__body {
+      column-gap: 50px;
+    }
+    .sectionNuestroTeam .sectionNuestroTeam__body .profile {
+      flex-basis: 430px;
+      max-width: 400px;
+    }
+    .sectionNuestroTeam .sectionNuestroTeam__body .profile figure {
+      width: 50%;
+    }
+    .sectionNuestroTeam .sectionNuestroTeam__btnSaberMas button {
+      font-size: 1.1em;
+      padding: 15px 50px;
+    } */
+}
+
+@media screen and (max-width: 768px) {
+  .home .home-header__textos {
+    min-height: 70vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+    /* Header Textos*/
+  .home .home-header__textos .header__textos {
+    row-gap: 25px;
+    padding-top: 100px;
+    margin-top: 0px;
+  }
+  .home .home-header__textos .header__textos h1 {
+    font-size: 2em;
+    color: var(--Light-Brown);
+  }
+  .home .home-header__textos .header__textos p {
+    width: 80%;
+    font-size: 0.8em;
+    color: var(--Light-Brown);
+  }
+  .home .home-header__textos .header__textos .header__textos__botones {
+    column-gap: 30px;
+  }
+  .home .home-header__textos .header__textos .header__textos__botones .btnQuieroEmprender {
+    padding: 15px 20px;
+    font-size: 0.8em;
+    color: var(--Lightest);
+  }
+  .home .home-header__textos .header__textos .header__textos__botones .btnSaberMas {
+    font-size: 0.8em;
+    color: var(--Light-Brown);
+  }
+
+  /* ¿Por qué Kapak? */
+  .home .sectionPorQueKapak {
+    min-height: 100vh;
+    row-gap: 40px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+  }
+  .home .sectionPorQueKapak .sectionPorQueKapak__top {
+    row-gap: 15px;
+    width: 80%;
+  }
+  .home .sectionPorQueKapak .sectionPorQueKapak__top .titulo {
+    font-size: 1.2em;
+    margin-top: 0;
+  }
+  .home .sectionPorQueKapak .sectionPorQueKapak__top p {
+    font-size: 0.8em;
+  }
+  .home .sectionPorQueKapak .sectionPorQueKapak__body {
+    flex-direction: row;
+    padding: 0;
+    row-gap: 30px;
+    flex-wrap: wrap;
+  }
+  .home .sectionPorQueKapak .sectionPorQueKapak__body article {
+    row-gap: 10px;
+    width: min-content;
+    flex-basis: 140px;
+  }
+  .home .sectionPorQueKapak .sectionPorQueKapak__body article:nth-child(even) {
+    padding-top: 0;
+  }
+  .home .sectionPorQueKapak .sectionPorQueKapak__body article img {
+    width: 100px;
+  }
+  .home .sectionPorQueKapak .sectionPorQueKapak__body article p {
+    font-size: 0.8em;
+  }
+
+  /* ¿Cómo es nuestro proceso? */
+  .home .sectionProcesoKapak {
+    min-height: 100%;
+    flex-direction: column-reverse;
+    row-gap: 30px;
+    padding: 50px 0;
+  }
+  .home .sectionProcesoKapak img {
+    width: 300px;
+  }
+  .home .sectionProcesoKapak .sectionProcesoKapak__texto {
+    row-gap: 15px;
+    margin-top: 30px;
+  }
+  .home .sectionProcesoKapak .sectionProcesoKapak__texto .titulo {
+    margin-top: 0;
+    font-size: 1.4em;
+  }
+  .home
+    .sectionProcesoKapak
+    .sectionProcesoKapak__texto
+    .sectionProcesoKapak__texto__contenido {
+    row-gap: 10px;
+  }
+  .home
+    .sectionProcesoKapak
+    .sectionProcesoKapak__texto
+    .sectionProcesoKapak__texto__contenido
+    article
+    img {
+    max-width: 100px;
+  }
+  .home
+    .sectionProcesoKapak
+    .sectionProcesoKapak__texto
+    .sectionProcesoKapak__texto__contenido
+    article
+    div
+    h5,
+  .home
+    .sectionProcesoKapak
+    .sectionProcesoKapak__texto
+    .sectionProcesoKapak__texto__contenido
+    article
+    div
+    p {
+    font-size: 0.8em;
+  }
+
+  /* Nuestros Servicios */
+  .home .sectionNuestrosServicios {
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+  .home .sectionNuestrosServicios .sectionNuestrosServicios__top {
+    row-gap: 30px;
+    margin-top: 60px;
+  }
+  .home .sectionNuestrosServicios .sectionNuestrosServicios__top .titulo {
+    font-size: 1.4em;
+  }
+  .home .sectionNuestrosServicios .sectionNuestrosServicios__top p {
+    font-size: 0.8em;
+    width: 80%;
+  }
+  .home .sectionNuestrosServicios .sectionNuestrosServicios__slick {
+    padding: 0;
+  }
+
+  /* Nuestro Team */
+  /* .sectionNuestroTeam .sectionNuestroTeam__body {
+    gap: 20px;
+  }
+  .sectionNuestroTeam .sectionNuestroTeam__body .profile {
+    flex-basis: 150px;
+    max-width: 180px;
+  }
+  .sectionNuestroTeam .sectionNuestroTeam__body .profile figure {
+    width: 80%;
+  } */
+  /* Fondo Previo Footer */
+  .sectionfondoPrevioFooter img {
+    padding: 25px 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header .header__textos h1 {
+    font-size: 1.6em;
+  }
+  .header .header__textos {
+    row-gap: 15px;
+    padding-top: 80px;
+  }
+  .header .header__textos .header__textos__botones {
+    margin-top: 10px;
+  }
+}
