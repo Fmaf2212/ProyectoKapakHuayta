@@ -4,7 +4,7 @@ import './contactanos.css'
 
 const Contactanos = () => {
   return (
-    <div className='contactanos'>Contactanos</div>
+    <div className='contactanos'>Contáctanos</div>
   )
 }
 
