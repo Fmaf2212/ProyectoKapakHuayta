@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/ProyectoKapakHuayta/static/css/main.2997abed.css",
-    "main.js": "/ProyectoKapakHuayta/static/js/main.de63b9c8.js",
+    "main.css": "/ProyectoKapakHuayta/static/css/main.325939ef.css",
+    "main.js": "/ProyectoKapakHuayta/static/js/main.a8c821c4.js",
     "static/media/imagenHeaderFondo.jpg": "/ProyectoKapakHuayta/static/media/imagenHeaderFondo.aa19cc0c5732ade31f01.jpg",
     "static/media/fondoPrevioFooter.png": "/ProyectoKapakHuayta/static/media/fondoPrevioFooter.dc4eb58b6b04148d829e.png",
     "static/media/imgComoEsNuestroProceso.jpg": "/ProyectoKapakHuayta/static/media/imgComoEsNuestroProceso.50903197cc930cf3343a.jpg",
     "static/media/frasePersuasiva.png": "/ProyectoKapakHuayta/static/media/frasePersuasiva.737973ede6e1d3d16d5d.png",
     "static/media/logoKapak.png": "/ProyectoKapakHuayta/static/media/logoKapak.312ae6bac18335062222.png",
     "static/media/nosotrosLoremIpsum.png": "/ProyectoKapakHuayta/static/media/nosotrosLoremIpsum.1b0d6cc849dae42aec2d.png",
+    "static/media/imagenDefault.png": "/ProyectoKapakHuayta/static/media/imagenDefault.a7017db061cf25ce12eb.png",
     "static/media/ramaPorQueKapak.png": "/ProyectoKapakHuayta/static/media/ramaPorQueKapak.0d0aa1885823a28e937f.png",
     "static/media/nuestrosProcesosArbol1.png": "/ProyectoKapakHuayta/static/media/nuestrosProcesosArbol1.27706aaffbd31c48ca51.png",
     "static/media/nuestrosProcesosArbol3.png": "/ProyectoKapakHuayta/static/media/nuestrosProcesosArbol3.cfd5723d632da0a93eb0.png",
     "index.html": "/ProyectoKapakHuayta/index.html",
-    "main.2997abed.css.map": "/ProyectoKapakHuayta/static/css/main.2997abed.css.map",
-    "main.de63b9c8.js.map": "/ProyectoKapakHuayta/static/js/main.de63b9c8.js.map"
+    "main.325939ef.css.map": "/ProyectoKapakHuayta/static/css/main.325939ef.css.map",
+    "main.a8c821c4.js.map": "/ProyectoKapakHuayta/static/js/main.a8c821c4.js.map"
   },
   "entrypoints": [
-    "static/css/main.2997abed.css",
-    "static/js/main.de63b9c8.js"
+    "static/css/main.325939ef.css",
+    "static/js/main.a8c821c4.js"
   ]
 }
