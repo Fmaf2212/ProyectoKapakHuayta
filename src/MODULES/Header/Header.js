@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 import './header.css'
 
@@ -35,37 +35,40 @@ const Header = () => {
   //   }
   // }
 
-  
-  window.addEventListener('resize', function(event) {
-    if (window.innerWidth < 980){
-      if (document.body.getBoundingClientRect().top < -50) {
-        // document.getElementById('box').innerText = '↑';
-        // console.log('PONLE BACKGROUND AL NAVBAR')
-        // document.getElementById('header__nav').style.backgroundColor = 'rgba(233, 233, 233, .9)'
-        document.getElementById('header__nav').style.padding = '0'
-        // document.getElementById('header__nav').style.padding = '0 60px'
-        document.getElementById('nav').style.padding = '0px 20px'
+  window.addEventListener(
+    'resize',
+    function (event) {
+      if (window.innerWidth < 980) {
+        if (document.body.getBoundingClientRect().top < -50) {
+          // document.getElementById('box').innerText = '↑';
+          // console.log('PONLE BACKGROUND AL NAVBAR')
+          // document.getElementById('header__nav').style.backgroundColor = 'rgba(233, 233, 233, .9)'
+          document.getElementById('header__nav').style.padding = '0'
+          // document.getElementById('header__nav').style.padding = '0 60px'
+          document.getElementById('nav').style.padding = '0px 20px'
+        } else {
+          document.getElementById('header__nav').style.padding = '0'
+          document.getElementById('nav').style.padding = '0 20px'
+        }
       } else {
-        document.getElementById('header__nav').style.padding = '0'
-        document.getElementById('nav').style.padding = '0 20px'
+        if (document.body.getBoundingClientRect().top < -50) {
+          // document.getElementById('box').innerText = '↑';
+          // console.log('PONLE BACKGROUND AL NAVBAR')
+          document.getElementById('header__nav').style.backgroundColor =
+            'rgba(255, 255, 255, 0.9)'
+          document.getElementById('header__nav').style.padding = '0 40px'
+          // document.getElementById('header__nav').style.padding = '0 60px'
+          document.getElementById('nav').style.padding = '0px 10px'
+        } else {
+          document.getElementById('header__nav').style.backgroundColor =
+            'transparent'
+          document.getElementById('header__nav').style.padding = '0px 40px'
+          document.getElementById('nav').style.padding = '10px 0px'
+        }
       }
-    }
-    else{
-      if (document.body.getBoundingClientRect().top < -50) {
-        // document.getElementById('box').innerText = '↑';
-        // console.log('PONLE BACKGROUND AL NAVBAR')
-        document.getElementById('header__nav').style.backgroundColor = 'rgba(255, 255, 255, 0.9)'
-        document.getElementById('header__nav').style.padding = '0 40px'
-        // document.getElementById('header__nav').style.padding = '0 60px'
-        document.getElementById('nav').style.padding = '0px 10px'
-      } else {
-        document.getElementById('header__nav').style.backgroundColor =
-          'transparent'
-        document.getElementById('header__nav').style.padding = '0px 40px'
-        document.getElementById('nav').style.padding = '10px 0px'
-      }
-    }
-  }, true);
+    },
+    true,
+  )
 
   window.addEventListener('scroll', function () {
     if (window.innerWidth > 1440) {
@@ -109,14 +112,17 @@ const Header = () => {
         // document.getElementById('box').innerText = '↓';
         // scrollPos = (document.body.getBoundingClientRect()).top;
       }
-    } 
+    }
   })
 
   return (
     <header className="header">
       <div id="header__nav" className="header__nav contenedor">
         <nav id="nav">
-          <input type="checkbox" id="check" onClick={() =>{
+          <input
+            type="checkbox"
+            id="check"
+            onClick={() => {
               setChecked(!checked)
               myFunction()
             }}
@@ -126,32 +132,47 @@ const Header = () => {
             <span className="line line-split"></span>
           </label>
           <div>
-            <Link to="/ProyectoKapakHuayta">
+            <NavLink to="/ProyectoKapakHuayta">
               <img
                 src={logoKapak}
                 id="imgLogo"
                 className="imgLogo"
                 alt="logoKapak"
               />
-            </Link>
+            </NavLink>
           </div>
-          <ul id='ul'>
+          <ul id="ul">
             <li>
-              <Link id='enlaceNosotros' to="/Nosotros">Nosotros</Link>
+              <NavLink id="enlaceNosotros" to="/Nosotros" activeclassname="selected">
+                Nosotros
+              </NavLink>
             </li>
             <li>
-              <Link id='enlaceServicios' to="/Servicios">Servicios</Link>
+              {/* <Link id="enlaceServicios" to="/Servicios">
+                Servicios
+              </Link> */}
+              <NavLink id="enlaceServicios" to="/Servicios" activeclassname="selected">
+                Servicios
+              </NavLink>
             </li>
             <li>
-              <Link id='enlaceSostenibilidad' to="/Sostenibilidad">Sostenibilidad</Link>
+              <NavLink id="enlaceSostenibilidad" to="/Sostenibilidad" activeclassname="selected">
+                Sostenibilidad
+              </NavLink>
             </li>
             <li>
-              <Link id='enlaceCertificaciones' to="/Certificaciones">Certificaciones</Link>
+              <NavLink id="enlaceCertificaciones" to="/Certificaciones" activeclassname="selected">
+                Certificaciones
+              </NavLink>
             </li>
             <li>
-              <Link id='enlaceContactanos' to="/Contactanos" className="nav-button">
+              <NavLink
+                id="enlaceContactanos"
+                to="/Contactanos"
+                className="nav-button"
+              >
                 Contáctanos
-              </Link>
+              </NavLink>
             </li>
           </ul>
         </nav>
