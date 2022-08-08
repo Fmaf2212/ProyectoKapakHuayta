@@ -1,7 +1,41 @@
-.contactanos{
-    width: 100%;
-    height: 100vh;
+.containContactanos{
     display: flex;
-    justify-content: center;
+}
+
+.containContactanos__image{
+    background-color: #DEDEDE;
+    width: 40%;
+    margin-top: 102px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
+    padding-bottom: 50px;
+}
+.containContactanos__image h2{
+    padding-top: 100px;
+    font-weight: 500;
+    font-size: 2em;
+    width: 9em;
+    text-align: center;
+}
+
+.containContactanos__form{
+    width: 60%;
+    padding-top: 102px;
+    border: 1px solid;
+    margin-top: 102px;
+}
+.containContactanos__form h1,
+.containContactanos__form h2{
+    text-align: center;
+    font-weight: 500;
+    font-size: 2em;
+}
+.containContactanos__form h1{
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.6em;
 }
